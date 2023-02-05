@@ -11,7 +11,7 @@ public class jf_for_loop {
         nameList.add("Melvin Thomas");
         nameList.add("Abishek Aneese");
         //for(int i =0; i < intArray.length; i++){    //for integers
-        for(int i =0; i < nameList.size(); i++){      //for names
+        for(int i =0; i < nameList.size(); i++){      //for characters
             //System.out.println("Element number " + i + " is " + intArray[i]);
             System.out.println("Element number " + i + " is " + nameList.get(i));
         }
